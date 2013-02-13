@@ -1,0 +1,22 @@
+# My additions:
+# ############
+
+# Ignore case when doing completion
+set completion-ignore-case on
+
+# Completed dir names have a slash appended
+set mark-directories on
+
+# List ls -F for completion
+set visible-stats on
+
+# Cycle through ambigous completions instead of list
+"\C-i":menu-complete
+
+# List possible completions instead of ringin bell
+set show-all-if-ambiguous on
+
+# Scroll through bach history with matching by pressing up or down keys
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+
